@@ -8,8 +8,8 @@
 
   card.classList.add('about-trigger');
   card.insertAdjacentHTML('beforeend', `
-    <button class="about-trigger__button" type="button" aria-expanded="false" aria-controls="about-content">
-      <span class="about-trigger__pill" aria-hidden="true">Om meg</span>
+    <button class="about-trigger__button" type="button" aria-expanded="false" aria-controls="about-content" aria-label="Om meg">
+      <span class="about-trigger__pill" aria-hidden="true">Om meg<img src="assets/icons/arrow-up-right.svg" alt="" /></span>
       <span class="about-trigger__arrow" aria-hidden="true"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
       <span class="about-trigger__hover">
         <span class="about-trigger__title">Hei, jeg er Synne</span>

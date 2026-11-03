@@ -1298,7 +1298,10 @@ p {
   position: absolute;
   left: 16px;
   bottom: 16px;
-  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px 8px 16px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.9);
   font: 500 16px/20px var(--case-font);
@@ -1382,6 +1385,12 @@ p {
 .about-trigger__button:focus-visible .about-trigger__arrow {
   opacity: 1;
   transform: none;
+}
+
+.about-trigger__pill img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0);
 }
 
 /* Innholdet når kortet er åpent */
