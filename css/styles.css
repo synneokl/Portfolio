@@ -1235,6 +1235,12 @@ p {
   }
 }
 
+.page-nav__role {
+  margin-left: 12px;
+  font-weight: 400;
+  color: var(--case-muted);
+}
+
 /* Kontaktlenkene i samme skrift som resten */
 .contact-link__text {
   font-family: var(--case-font);
