@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyCrib — Synne Økland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="page-shell page-shell--case">
+
+    <!-- Venstre kolonne: bilde øverst, kontaktlenker under (samme som forsida) -->
+    <aside class="page-sidebar">
+      <div class="card-home card-home--image">
+        <img class="card-home__photo" src="assets/images/portrait.jpg" alt="Portrett av Synne Økland" />
+      </div>
+      <div class="card-home card-home--links">
+        <div class="card-home__links">
+          <a class="contact-link" href="mailto:synne.okland@gmail.com">
+            <span class="contact-link__text">Epost</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="tel:+4790672564">
+            <span class="contact-link__text">Telefon</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/synne-%C3%B8kland-1a6081264/" target="_blank" rel="noopener">
+            <span class="contact-link__text">Linkedin</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="assets/cv.pdf" target="_blank" rel="noopener">
+            <span class="contact-link__text">cv</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Prosjektinnhold (Figma: Portfolio-v2, node 121:654) -->
+    <main class="page-content page-content--project">
+      <nav class="page-nav">
+        <div class="page-nav__left">
+          <a class="icon-button icon-button--outline" href="index.html" aria-label="Tilbake til prosjektene">
+            <img src="assets/icons/arrow-left.svg" alt="" />
+          </a>
+          <p class="page-nav__title page-nav__title--project">MyCrib</p>
+        </div>
+        <a class="page-nav__close" href="index.html" aria-label="Lukk">
+          <span class="icon-button icon-button--outline">
+            <img src="assets/icons/cross.svg" alt="" />
+          </span>
+        </a>
+      </nav>
+
+      <article class="case">
+        <header class="case__intro">
+          <h1 class="case__title">MyCrib</h1>
+          <p class="case__client">MIX301, Universitetet i Bergen <span class="case__status">Pågår</span></p>
+        </header>
+
+        <section class="case__overview">
+          <dl class="case__facts">
+            <div class="case__group">
+              <dt class="case__label">Min rolle</dt>
+              <dd class="case__text">Designer, med hovedansvar for det visuelle, designsystemet og brukerflyten</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Team</dt>
+              <dd class="case__text">Gruppeprosjekt i MIX301</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Verktøy</dt>
+              <dd class="case__text">Claude Code, Figma, Figma MCP, Figma AI, Claude, ChatGPT</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Periode</dt>
+              <dd class="case__text">Høst 2026 (pågår)</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Status</dt>
+              <dd class="case__text">Under arbeid. AI-samtalen er ikke ferdig ennå.</dd>
+            </div>
+          </dl>
+
+          <div class="case__summary">
+            <div class="case__group">
+              <p class="case__label">Beskrivelse</p>
+              <p class="case__text">En mobilapp der du chatter med en AI om ditt eget rom, like enkelt som å sende et
+                bilde til ChatGPT. Forskjellen er at AI-en kjenner målene på rommet, så rådene stemmer når du skal
+                kjøpe.</p>
+            </div>
+            <div class="case__group">
+              <p class="case__label">Kontekst</p>
+              <div class="case__prose">
+                <p class="case__text">MyCrib er en høyoppløselig prototype vi lager som gruppe i masteremnet MIX301, som
+                  handler om AI-assistert design og utvikling. Jeg er designer i gruppa, med hovedansvar for det
+                  visuelle uttrykket, designsystemet og brukerflytene.</p>
+                <p class="case__text">Målet var ikke å teste med flest mulig brukere. Målet var å finne ut hvordan AI
+                  kan brukes gjennom en hel designprosess, fra idé og designsystem til fungerende prototype, og hvordan
+                  jeg som designer kan få farten fra AI uten å gi fra meg designbeslutningene. Prosjektet pågår dette
+                  semesteret, så casen er ikke ferdig.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <figure class="case__media case__media--phones case__media--phones-2">
+          <img src="assets/images/mycrib-home.png" alt="MyCrib hjemskjerm med rom og chatter" />
+          <img src="assets/images/mycrib-scan-room.png" alt="Skanning av stua" />
+        </figure>
+
+        <section class="case__section">
+          <h2 class="case__heading">Utfordringen</h2>
+          <p class="case__text">Hvordan kan det bli like enkelt å få hjelp til interiøret som å sende et bilde til
+            ChatGPT, men med riktige mål?</p>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Problemet og muligheten</h2>
+          <div class="case__prose">
+            <p class="case__text">Målgruppen var førstegangskjøpere mellom 20 og 35 år med stramt budsjett og lite
+              interiørerfaring. For dem er det vanskelig å vite om et møbel får plass og om rommet henger sammen som
+              helhet, og et feilkjøp er dyrt.</p>
+            <p class="case__text">Det vi fant, var at mange allerede bruker ChatGPT, og at de er glade i det. Det er
+              enkelt: man tar et bilde av rommet og et av møbelet, og får tilbake noe som ser ekte ut og har riktig
+              stemning. Problemet er at ChatGPT ikke kjenner rommet. Den endrer størrelsen på møbler, bytter materialer,
+              flytter vegger og glemmer det man sa i forrige runde. Bildet ser overbevisende ut, men man kan ikke stole
+              på det når man skal kjøpe.</p>
+            <p class="case__text">Muligheten lå i å beholde det folk liker med ChatGPT, den lave terskelen og det
+              realistiske uttrykket, og legge til det som mangler: rommets faktiske mål og en AI som bruker dem.</p>
+          </div>
+          <figure class="case__figure">
+            <div class="case__media-row case__media-row--compare">
+              <div class="case__compare-item">
+                <div class="case__media case__media--sheet"><img src="assets/images/mycrib-chatgpt-original.jpg"
+                    alt="Panoramabilde av stua, redigert av AI med endret sofa, lampe og ventiler i taket" /></div>
+                <p class="case__caption">Stuen min, redigert av AI. Den endret sofaen og lampen, og la til noen rare
+                  ventiler i taket ved kjøkkenet.</p>
+              </div>
+              <div class="case__compare-item">
+                <div class="case__media case__media--sheet"><img src="assets/images/mycrib-chatgpt-result.jpg"
+                    alt="Stue generert av ChatGPT ut fra bilder fra visningen" /></div>
+                <p class="case__caption">Generert av ChatGPT slik den oppfattet rommet fra bildene fra visningen. Den la
+                  til en vegg der det egentlig er en dør, endret sofaen og komprimerte rommet mer for hver iterasjon.
+                </p>
+              </div>
+            </div>
+          </figure>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Research og innsikt</h2>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Intervjuer og spørreundersøkelse</h3>
+            <div class="case__prose">
+              <p class="case__text">Gruppa intervjuet tre personer med ulik erfaring med å innrede, og gjennomførte en
+                spørreundersøkelse om å innrede sin første bolig, med 27 svar. Vi analyserte svarene tematisk: sitater
+                og svar ble kodet og gruppert til tema, og vi så etter steder der dataene pekte i ulike retninger.
+                Utvalget er lite og skjevt, mest unge kvinner som er vant med AI. Det var et bevisst valg, siden fokuset dette semesteret var å utforske designprosessen med AI og ikke brukerinnsikt. Funnene ga derfor retning, ikke fasit.</p>
+            </div>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Det vi fant</h3>
+            <div class="case__insights">
+              <div class="case__insight">
+                <p class="case__insight-stat">18 av 26</p>
+                <p class="case__insight-title">Mange bruker allerede ChatGPT til interiør</p>
+                <p class="case__insight-text">Det er enkelt og viser muligheter, men gir feil størrelser, endrer rommet
+                  og glemmer det man sa i forrige runde.</p>
+              </div>
+              <div class="case__insight">
+                <p class="case__insight-stat">11 av 27</p>
+                <p class="case__insight-title">Usikre mål gjør folk skeptiske</p>
+                <p class="case__insight-text">«Lager rommet mye større som regel. Du tror du har plass til mer enn du
+                  har.»</p>
+              </div>
+              <div class="case__insight">
+                <p class="case__insight-stat">2 av 3</p>
+                <p class="case__insight-title">Et feilkjøp sitter lenge</p>
+                <p class="case__insight-text">To av de tre vi intervjuet angret på møbler som var for store for rommet. Den ene brukte et
+                  år på å finne et teppe, og lånte med seg prøver hjem før hun turte å kjøpe.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="case__sub">
+            <p class="case__text">Det mest interessante funnet var en motsetning. Bare 5 av 27 sa at størrelse og mål
+              var det vanskeligste, men usikre mål var den vanligste grunnen til å være skeptisk til digitale verktøy.
+              Vi tolket det slik at mål ikke er et problem folk merker selv, men en terskel for tillit. En løsning som
+              skulle erstatte ChatGPT, måtte derfor være like enkel å bruke, og samtidig vise tydelig hvilke mål rådene
+              bygger på.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Viktigste brukerbehov</h3>
+            <ul class="case__stories">
+              <li>Som førstegangskjøper vil jeg vite om et møbel faktisk får plass før jeg kjøper det.</li>
+              <li>Som førstegangskjøper vil jeg kunne stole på målene AI-en bruker, og se hva den har lagt til grunn.
+              </li>
+              <li>Som førstegangskjøper vil jeg få hjelp uten at det blir et ork, og uten at jeg må vite hva jeg skal
+                trykke på.</li>
+            </ul>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Fra innsikt til designvalg</h3>
+            <dl class="case__map">
+              <div class="case__map-row">
+                <dt>ChatGPT er enkelt fordi man bare sender et bilde</dt>
+                <dd>Chatten er hovedinngangen, og rom og møbler legges inn med bilder, skann eller en produktlenke.
+                  Brukeren trenger ikke vite hvilken funksjon hun skal bruke.</dd>
+              </div>
+              <div class="case__map-row">
+                <dt>Usikre mål gjør folk skeptiske</dt>
+                <dd>Rommet har faktiske mål fra skann, plantegning eller egne mål, og kan vises som plantegning med
+                  centimeter. Har brukeren bare lagt inn bilder, sier AI-en ærlig at den ikke kan måle fra et bilde.
+                </dd>
+              </div>
+              <div class="case__map-row">
+                <dt>Et feilkjøp sitter lenge</dt>
+                <dd>Brukeren kan legge inn et møbel med skann, bilde eller produktlenke og se det i sitt eget rom før
+                  hun kjøper, i stedet for å låne det med hjem.</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Prosess</h2>
+          <p class="case__text case__intro-text">I bacheloren opplevde jeg at AI-en tok mange av designvalgene for oss.
+            Det gikk raskt, men designet ble mindre vårt. I MyCrib ville jeg finne en måte å samarbeide med AI på der
+            jeg fikk farten og automatikken, men beholdt kontrollen over hvordan produktet ser ut og oppfører seg.</p>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Fra interiørapp til «ChatGPT for interiør»</h3>
+            <div class="case__prose">
+              <p class="case__text">Tidlig i prosjektet begynte konseptet å ligne en typisk interiørapp med mange
+                funksjoner. Jeg foreslo heller å ta utgangspunkt i det som gjør ChatGPT så enkelt: man trenger ikke vite
+                hva man skal trykke på, man viser bare hva man prøver å gjøre. Forskjellen skulle være at AI-en kjenner
+                rommet, og derfor kan si fra om ting brukeren ikke tenker på, som at sofaen får plass, men at det blir
+                for trangt å gå forbi.</p>
+              <p class="case__text">Jeg testet ideen i en klikkbar lo-fi-prototype, bevisst grå og uten pynt, slik at
+                det var flyten og ikke utseendet som ble vurdert. Gruppa valgte flyten fra dette konseptet som felles
+                struktur for appen.</p>
+            </div>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones case__media--phones-1"><img
+                  src="assets/images/mycrib-lofi.png"
+                  alt="Lo-fi-prototypen: grått rom i 3D med en sofa og chat nederst" /></div>
+              <figcaption class="case__caption">Lo-fi-prototypen: bevisst grå, med rommet i fokus og chatten nederst.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Designsystem og regler før AI-en bygger</h3>
+            <div class="case__prose">
+              <p class="case__text">Jeg la grunnlaget før AI-en fikk bygge noe. Designsystemet bygde jeg sammen med AI,
+                men det var jeg som bestemte farger, typografi og komponenter, og det ble rammen AI-en måtte følge. Jeg
+                skrev også faste regler for samarbeidet: det er jeg som tar de endelige valgene, større valg skal vises
+                som alternativer, og designet i Figma og prototypen skal alltid være i takt.</p>
+            </div>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Hele flyten i Figma, styrt med kommentarer</h3>
+            <div class="case__prose">
+              <p class="case__text">Da designsystemet var klart, valgte jeg å designe hele flyten i Figma før noe ble
+                kodet, siden prosjektet handlet om å undersøke selve prosessen. Claude satte komponentene sammen i tre
+                visuelle retninger, og etter at jeg hadde valgt, bygde den hele flyten på 33 skjermer.</p>
+              <p class="case__text">Kommentarene ble den viktigste måten å styre på. En kommentar peker på nøyaktig det
+                elementet jeg mener, så jeg slipper å forklare med ord hvor i systemet endringen skal gjøres. Når jeg
+                tidligere har vibekodet, har AI-en ofte gjort endringen på feil sted fordi jeg ikke beskrev konteksten
+                godt nok.</p>
+            </div>
+            <figure class="case__figure">
+              <div class="case__media case__media--sheet case__media--sheet-wide"><img
+                  src="assets/images/mycrib-figma-comments-abc.png"
+                  alt="Tre visuelle retninger i Figma, A Papir, B Espresso og C Flytende, med kommentarene mine som oransje bobler" />
+              </div>
+              <figcaption class="case__caption">Claude satte komponentene sammen i tre retninger: A · Papir, B ·
+                Espresso og C · Flytende. De oransje boblene er kommentarene mine, festet rett på elementene jeg ville
+                endre. Bare 12. oktober skrev jeg 69 kommentarer.</figcaption>
+            </figure>
+            <figure class="case__figure">
+              <div class="case__media case__media--sheet case__media--sheet-wide"><img
+                  src="assets/images/mycrib-comment-before-after.png"
+                  alt="Før og etter en kommentar: til venstre en kommentar om at målene burde merkes med en tag, til høyre den rettede skjermen med «Sjekk målene»" />
+              </div>
+              <figcaption class="case__caption">Slik så mange endringer ut. Til venstre skrev jeg at «sjekk at de
+                stemmer» heller burde være en tydelig merkelapp, til høyre er det rettet.</figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">En ny visuell retning underveis</h3>
+            <div class="case__prose">
+              <p class="case__text">Etter de første rundene syntes jeg uttrykket ble for mykt og generisk, og byttet til
+                en skarpere, mer moteinspirert stil. Fordi skjermene var bygget med komponenter og variabler, fikk hele
+                prototypen den nye stilen på én gang.</p>
+            </div>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones">
+                <img src="assets/images/mycrib-allrooms.png" alt="Alle rom som stående kort med bilder" />
+                <img src="assets/images/mycrib-chat.png" alt="Stua i 360° med chat nederst" />
+                <img src="assets/images/mycrib-panel.png" alt="Sidepanelet med lagrede versjoner og chatter" />
+              </div>
+              <figcaption class="case__caption">Slik ser MyCrib ut nå: alle rom, rommet med chat, og sidepanelet med
+                lagrede versjoner.</figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Koden og designet i takt</h3>
+            <div class="case__prose">
+              <p class="case__text">Deretter ble designet bygget i kode med Claude Code, med farger, typografi og ikoner
+                hentet direkte fra Figma. Flere endringer ble først bare gjort i koden, så jeg innførte en regel om at
+                alt som endres i koden også skal endres i Figma. Slik var det designet som gjaldt, også når prototypen
+                utviklet seg videre.</p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Løsningen så langt</h2>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Rommet som kontekst</h3>
+            <p class="case__text">Brukeren legger inn rommet med skann, plantegning, egne mål eller bilder. Bildene gir
+              AI-en stemningen, farger, materialer og lys, mens skannet eller plantegningen gir den målene. Det finnes fire måter å legge inn rommet på, så brukeren kan starte med det hun har for hånden.</p>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones case__media--phones-4">
+                <img src="assets/images/mycrib-create-1.png"
+                  alt="Velg metode: skann, plantegning, egne mål eller bilder" />
+                <img src="assets/images/mycrib-create-2.png" alt="Egne mål: tegning av rommet med vegger og mål" />
+                <img src="assets/images/mycrib-create-3.png" alt="Legg til bilder med eksempelbilder" />
+                <img src="assets/images/mycrib-create-4.png"
+                  alt="Romdetaljer: navn, instruks til AI-en og interiørstil" />
+              </div>
+              <figcaption class="case__caption">«Create room» slik jeg designet den: velg metode, mål rommet, legg til
+                bilder og gi rommet et navn.</figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">En chat som ikke tar over</h3>
+            <div class="case__prose">
+              <p class="case__text">Chatten tar maks en femtedel av skjermen, slik at rommet alltid er i fokus.
+                Endringer skjer direkte i rommet, men kan angres, og brukeren kan lagre versjoner og gå tilbake til dem.
+                Ingenting bytter visning av seg selv.</p>
+              <p class="case__note">Selve AI-samtalen er ikke ferdig ennå. I prototypen svarer AI-en med forhåndsskrevne
+                svar, så rammene rundt samtalen kan testes før vi kobler på en ekte språkmodell. Hvordan AI-en skal
+                svare, foreslå og si fra om mål er det vi jobber med nå.</p>
+            </div>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Vise hva AI-en så</h3>
+            <p class="case__text">Møbelet legges inn like enkelt som i ChatGPT, med et bilde, en produktlenke eller en
+              rask skanning. Når brukeren skanner, viser «What the AI saw» hvilke mål og hvilken gjenstand AI-en har
+              registrert, med «Not this item?» hvis den tok feil. Det svarer på behovet for å kunne stole på målene og
+              se hva rådene bygger på.</p>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones case__media--phones-2">
+                <img src="assets/images/mycrib-scan.png" alt="Skanning av et møbel med alle sider registrert" />
+                <img src="assets/images/mycrib-ai-saw.png" alt="«What the AI saw»: bilde av møbelet, navn, pris, lenke og mål registrert av skannet" />
+              </div>
+              <figcaption class="case__caption">Etter skanningen viser «What the AI saw» hvilket møbel AI-en tror det er og målene den har registrert, med «Not this item?» hvis den tok feil.</figcaption>
+            </figure>
+          </div>
+
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Resultat så langt</h2>
+          <div class="case__prose">
+            <p class="case__text">Prototypen er bygget i React og TypeScript med eget designsystem, og designet i Figma
+              og koden holdes i takt. AI-en i appen er foreløpig simulert med skriptede svar, og stua er lagt inn med en
+              ekte 3D-skanning. Neste steg er brukertest av hi-fi-prototypen, der jeg blant annet vil undersøke om
+              brukeren opplever at det er hun eller appen som bestemmer.</p>
+            <!-- TODO: oppdater når brukertesten er gjennomført -->
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Oppgaven jeg skriver</h2>
+          <div class="case__prose">
+            <p class="case__text">Prosjektet er grunnlaget for eksamensoppgaven min i MIX301. I bacheloren laget KI-en
+              hele designsystemet, og jeg opplevde å miste mye av kontrollen over designet. Nå undersøker jeg hvor
+              kontrollen over designbeslutningene faktisk ble utøvd da jeg prototypet med en AI-kodeagent, og hvordan
+              det skilte seg fra vibekodingen i bacheloren.</p>
+            <p class="case__text">Jeg bruker mixed-initiative interaction (Horvitz, 1999) som teoretisk linse, altså
+              samspillet mellom når mennesket og når systemet tar initiativet. Foreløpig ser jeg tre steder kontrollen
+              ble utøvd: i etterkant, ved å reagere på det agenten hadde bygget, på forhånd, gjennom regler og struktur,
+              og i forhandling, gjennom forslag, valg og en vei tilbake. Problemstillingen er ikke endelig.</p>
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Læring så langt</h2>
+          <div class="case__prose">
+            <p class="case__text">Det viktigste jeg har lært er at kontrollen over designet ikke kommer av seg selv når
+              en AI-agent bygger. Den må bygges inn i arbeidsmåten, med et designsystem agenten må følge, forslag jeg
+              velger mellom og regler som er skrevet før noe genereres.</p>
+            <p class="case__text">Samtidig er en regel bare så god som min evne til å sjekke at den blir fulgt. Selv med
+              regelen om at Figma og kode skal være i takt, fant jeg forskjeller senere. Å jobbe med en AI-agent har
+              gjort meg mer til en som setter rammer, vurderer og bestemmer, og mindre til en som bygger alt selv.</p>
+            <p class="case__text">Jeg ser også at de beste valgene kom når jeg brukte prototypen selv og la merke til
+              det som skurret. AI gjør det raskt å lage noe, men det er fortsatt designerens jobb å avgjøre om det er
+              riktig å lage.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </div>
+  <script src="js/about.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omega 365 Academy — Synne Økland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="page-shell page-shell--case">
+
+    <!-- Venstre kolonne: bilde øverst, kontaktlenker under (samme som forsida) -->
+    <aside class="page-sidebar">
+      <div class="card-home card-home--image">
+        <img class="card-home__photo" src="assets/images/portrait.jpg" alt="Portrett av Synne Økland" />
+      </div>
+      <div class="card-home card-home--links">
+        <div class="card-home__links">
+          <a class="contact-link" href="mailto:synne.okland@gmail.com">
+            <span class="contact-link__text">Epost</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="tel:+4790672564">
+            <span class="contact-link__text">Telefon</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/synne-%C3%B8kland-1a6081264/" target="_blank" rel="noopener">
+            <span class="contact-link__text">Linkedin</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="assets/cv.pdf" target="_blank" rel="noopener">
+            <span class="contact-link__text">cv</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Prosjektinnhold (Figma: Portfolio-v2, node 121:654) -->
+    <main class="page-content page-content--project">
+      <nav class="page-nav">
+        <div class="page-nav__left">
+          <a class="icon-button icon-button--outline" href="index.html" aria-label="Tilbake til prosjektene">
+            <img src="assets/icons/arrow-left.svg" alt="" />
+          </a>
+          <p class="page-nav__title page-nav__title--project">Omega 365 Academy</p>
+        </div>
+        <a class="page-nav__close" href="index.html" aria-label="Lukk">
+          <span class="icon-button icon-button--outline">
+            <img src="assets/icons/cross.svg" alt="" />
+          </span>
+        </a>
+      </nav>
+
+      <article class="case">
+        <header class="case__intro">
+          <h1 class="case__title">Omega 365 Academy</h1>
+          <p class="case__client">Omega 365</p>
+        </header>
+
+        <section class="case__overview">
+          <dl class="case__facts">
+            <div class="case__group">
+              <dt class="case__label">Min rolle</dt>
+              <dd class="case__text">Design og frontend</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Metoder</dt>
+              <dd class="case__text">Analyse av eksisterende løsning, enkle brukerundersøkelser, wireframes, informasjonsarkitektur</dd>
+            </div>
+          </dl>
+
+          <div class="case__summary">
+            <div class="case__group">
+              <p class="case__label">Beskrivelse</p>
+              <p class="case__text">Et redesign av Omega 365 Academy, læringsplattformen der kunder og ansatte finner kurs, videoer og artikler om Omega 365-systemene.</p>
+            </div>
+            <div class="case__group">
+              <p class="case__label">Kontekst</p>
+              <p class="case__text">Den gamle nettsiden fungerte mest som et arkiv. Alt innholdet lå der, men strukturen var laget med utviklere i tankene, og det var vanskelig å finne fram. Jeg hadde ansvar for redesignet fra analyse til ferdig nettside, og utviklet også frontenden.</p>
+            </div>
+          </div>
+        </section>
+
+        <figure class="case__media case__media--hero case__media--mockup">
+          <img src="assets/images/academy-hero.png" alt="Den nye forsiden til Omega 365 Academy på en laptop" />
+        </figure>
+
+        <section class="case__section">
+          <h2 class="case__heading">Utfordringen</h2>
+          <p class="case__text">Hvordan kan en samling kurs, videoer og artikler bli en læringsplattform som er lett å finne fram i?</p>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Rammer</h2>
+          <p class="case__text">Academy er en offentlig side og en del av hvordan Omega 365 presenterer seg utad. Designet måtte derfor følge Omegas designsystem og merkevare, med farger, typografi og komponenter som allerede var etablert. Innenfor de rammene prøvde jeg å gjøre siden litt mer leken og innbydende, blant annet med illustrasjoner, siden den handler om læring. Samtidig måtte den fortsatt fremstå som profesjonell, så balansen mellom det lekne og det seriøse var en del av jobben.</p>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Problemet</h2>
+          <p class="case__text">Alt innholdet fantes, men det lå samlet uten en tydelig struktur, og siden manglet det visuelle som gjør at man får lyst til å lære. Kurs, videoer og artikler måtte få hver sin plass, og samtidig henge sammen som én plattform.</p>
+          <figure class="case__figure">
+            <div class="case__media case__media--video">
+              <video src="assets/videos/academy-before.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+            </div>
+            <figcaption class="case__caption">Den gamle nettsiden.</figcaption>
+          </figure>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Prosess</h2>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Forstå før jeg tegnet</h3>
+            <p class="case__text">Jeg startet med å gå gjennom den eksisterende siden og gjøre enkle brukerundersøkelser for å forstå hva folk lette etter, og hvor de ga opp. Ut fra det laget jeg wireframes med ulike løsninger for navigasjon og struktur, slik at retningen kunne vurderes tidlig før noe ble designet ferdig.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Ny informasjonsarkitektur</h3>
+            <p class="case__text">Jeg organiserte innholdet på nytt etter type og formål, slik at kurs, artikler og videoer fikk hver sin tydelige inngang. Grensesnittet ble designet med komponentene fra Omegas designsystem, slik at plattformen føltes som en del av resten av selskapet.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Fra design til kode</h3>
+            <p class="case__text">Til slutt bygget jeg frontenden selv, og bidro med enkle oppgaver i backend. Det ga meg en god forståelse av hvordan designvalg faktisk blir til kode, og hva som gjør et design enkelt eller vanskelig å bygge.</p>
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Resultat</h2>
+          <p class="case__text">Den nye siden har en tydeligere struktur og et mer moderne uttrykk. Brukerne vi snakket med etterpå fant raskere fram til relevant innhold, og opplevde navigasjonen som mer sammenhengende.</p>
+          <figure class="case__figure">
+            <div class="case__media case__media--video">
+              <video src="assets/videos/academy-after.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+            </div>
+            <figcaption class="case__caption">Den nye nettsiden.</figcaption>
+          </figure>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Hva jeg tar med meg</h2>
+          <p class="case__text">Jeg hadde ansvar for hele redesignet, fra analyse til ferdig kode. Jeg lærte hvor mye informasjonsarkitektur betyr for hvordan en side oppleves, og det å bygge løsningen selv ga meg en bedre forståelse av hva designvalgene mine betyr for den som skal utvikle dem.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+  <script src="js/about.js"></script>
+</body>
+
+</html>

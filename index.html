@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synne Økland — UX Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="page-shell page-shell--case page-shell--home">
+
+    <!-- Venstre kolonne: bilde øverst, kontaktlenker under -->
+    <aside class="page-sidebar">
+      <div class="card-home card-home--image">
+        <img class="card-home__photo" src="assets/images/portrait.jpg" alt="Portrett av Synne Økland" />
+      </div>
+      <div class="card-home card-home--links">
+        <div class="card-home__links">
+          <a class="contact-link" href="mailto:synne.okland@gmail.com">
+            <span class="contact-link__text">Epost</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="tel:+4790672564">
+            <span class="contact-link__text">Telefon</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/synne-%C3%B8kland-1a6081264/" target="_blank" rel="noopener">
+            <span class="contact-link__text">Linkedin</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="assets/cv.pdf" target="_blank" rel="noopener">
+            <span class="contact-link__text">cv</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Innhold: scrollbar liste med prosjekter -->
+    <main class="page-content page-content--home">
+      <header class="page-nav">
+        <h1 class="page-nav__title page-nav__title--project">Arbeidet mitt</h1>
+      </header>
+
+      <a class="project-card project-card--featured" href="everviz.html">
+        <div class="project-card__media">
+          <span class="project-card__badge">Hovedprosjekt · Bacheloroppgave</span>
+          <div class="project-card__frame project-card__frame--everviz">
+            <img src="assets/images/project-everviz.png" alt="Skjermbilde av everviz-dashbordet" />
+          </div>
+        </div>
+        <div class="project-card__header">
+          <p class="project-card__title">Everviz Express</p>
+          <span class="icon-button icon-button--outline">
+            <img src="assets/icons/arrow-up-right.svg" alt="" />
+          </span>
+        </div>
+        <p class="project-card__text">Fly- og båtdata fra ti steg og opptil syv verktøy til fire trinn i én plattform.
+          Laget for journalister med dårlig tid, sammen med everviz.</p>
+      </a>
+
+      <a class="project-card" href="mycrib.html">
+        <div class="project-card__media">
+          <div class="project-card__phones">
+            <img src="assets/images/mycrib-home.png" alt="MyCrib hjemskjerm" />
+            <img src="assets/images/mycrib-scan-room.png" alt="MyCrib skanner rommet" />
+            <img src="assets/images/mycrib-chat.png" alt="MyCrib rom med chat" />
+          </div>
+        </div>
+        <div class="project-card__header">
+          <p class="project-card__title">MyCrib</p>
+          <span class="icon-button icon-button--outline">
+            <img src="assets/icons/arrow-up-right.svg" alt="" />
+          </span>
+        </div>
+        <p class="project-card__text">En AI-chat for interiør der ditt eget rom er konteksten. Et pågående prosjekt om
+          hvordan designeren beholder kontrollen når en AI-agent bygger.</p>
+      </a>
+
+      <section class="project-more" aria-labelledby="more-title">
+        <h2 class="project-more__title" id="more-title">Andre prosjekter</h2>
+        <div class="project-more__grid">
+          <a class="project-card project-card--small" href="changewatcher.html">
+            <div class="project-card__media">
+              <div class="project-card__frame project-card__frame--changewatcher-1">
+                <img src="assets/images/project-changewatcher-2.png" alt="Skjermbilde av Change Watcher, del 1" />
+              </div>
+              <div class="project-card__frame project-card__frame--changewatcher-2">
+                <img src="assets/images/project-changewatcher-1.png" alt="Skjermbilde av Change Watcher, del 2" />
+              </div>
+            </div>
+            <div class="project-card__header">
+              <p class="project-card__title">Change Watcher</p>
+              <span class="icon-button icon-button--outline">
+                <img src="assets/icons/arrow-up-right.svg" alt="" />
+              </span>
+            </div>
+            <p class="project-card__text">En funksjon i Figma som gjør det lettere for utviklere å følge med på
+              endringer i designet. Fra feltarbeid til testet konsept gjennom en designsprint.</p>
+          </a>
+
+          <a class="project-card project-card--small" href="academy.html">
+            <div class="project-card__media">
+              <div class="project-card__frame project-card__frame--academy">
+                <img src="assets/images/project-academy.png" alt="Skjermbilde av Academy-plattformen" />
+              </div>
+            </div>
+            <div class="project-card__header">
+              <p class="project-card__title">Omega 365 Academy</p>
+              <span class="icon-button icon-button--outline">
+                <img src="assets/icons/arrow-up-right.svg" alt="" />
+              </span>
+            </div>
+            <p class="project-card__text">Redesign av læringsplattformen til Omega 365, fra analyse og
+              informasjonsarkitektur til ferdig frontend.</p>
+          </a>
+
+          <a class="project-card project-card--small" href="myeachtrax.html">
+            <div class="project-card__media">
+              <div class="project-card__mockup">
+                <img src="assets/images/myeachtrax-hero.png" alt="MyEachtraX på mobil" />
+              </div>
+            </div>
+            <div class="project-card__header">
+              <p class="project-card__title">MyEachtraX</p>
+              <span class="icon-button icon-button--outline">
+                <img src="assets/icons/arrow-up-right.svg" alt="" />
+              </span>
+            </div>
+            <p class="project-card__text">Redesign av et søkesystem for lifelogging, der målet var raskere og mer
+              presist søk bare gjennom design.</p>
+          </a>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="js/about.js"></script>
+</body>
+
+</html>

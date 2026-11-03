@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyEachtraX — Synne Økland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="page-shell page-shell--case">
+
+    <!-- Venstre kolonne: bilde øverst, kontaktlenker under (samme som forsida) -->
+    <aside class="page-sidebar">
+      <div class="card-home card-home--image">
+        <img class="card-home__photo" src="assets/images/portrait.jpg" alt="Portrett av Synne Økland" />
+      </div>
+      <div class="card-home card-home--links">
+        <div class="card-home__links">
+          <a class="contact-link" href="mailto:synne.okland@gmail.com">
+            <span class="contact-link__text">Epost</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="tel:+4790672564">
+            <span class="contact-link__text">Telefon</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/synne-%C3%B8kland-1a6081264/" target="_blank" rel="noopener">
+            <span class="contact-link__text">Linkedin</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+          <a class="contact-link" href="assets/cv.pdf" target="_blank" rel="noopener">
+            <span class="contact-link__text">cv</span>
+            <span class="contact-link__icon"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Prosjektinnhold (Figma: Portfolio-v2, node 121:654) -->
+    <main class="page-content page-content--project">
+      <nav class="page-nav">
+        <div class="page-nav__left">
+          <a class="icon-button icon-button--outline" href="index.html" aria-label="Tilbake til prosjektene">
+            <img src="assets/icons/arrow-left.svg" alt="" />
+          </a>
+          <p class="page-nav__title page-nav__title--project">MyEachtraX</p>
+        </div>
+        <a class="page-nav__close" href="index.html" aria-label="Lukk">
+          <span class="icon-button icon-button--outline">
+            <img src="assets/icons/cross.svg" alt="" />
+          </span>
+        </a>
+      </nav>
+
+      <article class="case">
+        <header class="case__intro">
+          <h1 class="case__title">MyEachtraX</h1>
+          <p class="case__client">MIX204, Universitetet i Bergen</p>
+        </header>
+
+        <section class="case__overview">
+          <dl class="case__facts">
+            <div class="case__group">
+              <dt class="case__label">Min rolle</dt>
+              <dd class="case__text">UX-designer i prosjektgruppa</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Metoder</dt>
+              <dd class="case__text">Brukertest, ekspertintervjuer, iterativ prototyping</dd>
+            </div>
+            <div class="case__group">
+              <dt class="case__label">Verktøy</dt>
+              <dd class="case__text">Figma</dd>
+            </div>
+          </dl>
+
+          <div class="case__summary">
+            <div class="case__group">
+              <p class="case__label">Beskrivelse</p>
+              <p class="case__text">Et redesign av mobilgrensesnittet til MyEachtraX, et søkesystem for lifelogging der man henter fram bilder fra eget liv ut fra tid, sted og hendelser.</p>
+            </div>
+            <div class="case__group">
+              <p class="case__label">Kontekst</p>
+              <p class="case__text">Under panseret var MyEachtraX avansert, med språkmodeller og bildesøk som fant riktige bilder raskt. Men grensesnittet gjorde det vanskelig å komme i gang, og brukerne brukte mer tid på å forstå systemet enn på å finne det de lette etter. Oppgaven var å gjøre søket raskere og mer presist bare gjennom design, uten å endre funksjonaliteten.</p>
+            </div>
+          </div>
+        </section>
+
+        <figure class="case__media case__media--hero case__media--mockup">
+          <img src="assets/images/myeachtrax-hero.png" alt="MyEachtraX på mobil: forslag til søk og bildegalleri med filtre" />
+        </figure>
+
+        <section class="case__section">
+          <h2 class="case__heading">Utfordringen</h2>
+          <p class="case__text">Hvordan kan et kraftig søkesystem bli så enkelt at en nybegynner forstår hvordan man starter, søker og finner fram?</p>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Innsikt</h2>
+          <div class="case__prose">
+            <p class="case__text">Vi startet med å teste det eksisterende systemet og intervjue eksperter som kjente det godt. Tre problemer gikk igjen: bildevisningen var rotete, det fantes ingen måte å filtrere selv, og grensesnittet ga lite veiledning. Automatikken som skulle hjelpe, gjorde det i stedet vanskelig å forstå hvorfor resultatene ble som de ble.</p>
+          </div>
+          <figure class="case__figure">
+            <div class="case__media case__media--phones">
+              <img src="assets/images/myeachtrax-before-1.png" alt="Det opprinnelige grensesnittet, skjerm 1" />
+              <img src="assets/images/myeachtrax-before-2.png" alt="Det opprinnelige grensesnittet, skjerm 2" />
+              <img src="assets/images/myeachtrax-before-3.png" alt="Det opprinnelige grensesnittet, skjerm 3" />
+            </div>
+            <figcaption class="case__caption">Grensesnittet slik det var før redesignet.</figcaption>
+          </figure>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Prosess</h2>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Forbedre det som fantes</h3>
+            <p class="case__text">Vi valgte å iterere på det eksisterende grensesnittet i stedet for å starte fra bunnen av. Brukerne skulle kjenne igjen systemet, og innsatsen skulle gå til problemene vi faktisk hadde funnet. Det ga oss to typer endringer: små grep som fjernet friksjon med en gang, som tydeligere farger, større ikoner og ryddigere layout, og noen få større endringer som løste de underliggende problemene, som et helt nytt filtersystem.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Testing med eksperter og nybegynnere</h3>
+            <p class="case__text">Prototypen i Figma ble testet i flere runder med både eksperter og nybegynnere. Ekspertene pekte på struktur og arbeidsflyt, mens nybegynnerne avslørte detaljene: knappene var for små på mobil, ikonene var uklare og navigasjonen var ikke forutsigbar nok. Hver runde ble tatt inn i neste versjon.</p>
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Løsningen</h2>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Filtre brukeren styrer selv</h3>
+            <p class="case__text">En filtermeny for dato, sted og tid ligger alltid rett under søkefeltet. Der systemet tidligere tolket søket automatisk og brukeren ikke skjønte hvorfor resultatene ble som de ble, kan brukeren nå avgrense søket selv. Det gjorde søket mer presist og mer forutsigbart.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Hjelp til å komme i gang</h3>
+            <p class="case__text">Et tomt søkefelt er vanskelig når man ikke vet hva systemet forstår. Forslag basert på de mest brukte ordene og nylige søk viser hva man kan spørre om, og kan brukes med ett trykk.</p>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Et galleri man kjenner igjen</h3>
+            <p class="case__text">Bildegalleriet er bygget opp som kamerarullen på telefonen, med zoom og enkel scrolling. Svarene er gruppert etter hendelse med sted og dato, og brukeren kan samle favoritter underveis for å sammenligne før hun velger.</p>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones case__media--phones-4">
+                <img src="assets/images/myeachtrax-after-2.png" alt="Forslag til søk: mest brukte ord og siste søk" />
+                <img src="assets/images/myeachtrax-after-5.png" alt="Filtermeny med dato" />
+                <img src="assets/images/myeachtrax-after-3.png" alt="Svar gruppert etter hendelse" />
+                <img src="assets/images/myeachtrax-after-4.png" alt="Favoritter" />
+              </div>
+              <figcaption class="case__caption">Søkeforslag, filter, svar gruppert etter hendelse og favoritter i det nye grensesnittet.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Resultat</h2>
+          <p class="case__text">I siste testrunde løste alle deltakerne oppgavene raskere enn i den opprinnelige versjonen, og filtersystemet ble trukket fram som den største forbedringen. Flere beskrev grensesnittet som roligere og lettere å stole på.</p>
+        </section>
+
+        <section class="case__section">
+          <h2 class="case__heading">Hva jeg tar med meg</h2>
+          <p class="case__text">Prosjektet viste meg hvor mye man kan oppnå ved å forbedre det som finnes i stedet for å starte på nytt. Det viste meg også at automatikk ikke alltid gjør ting enklere. Brukerne ville forstå og styre søket selv, og det var først da de fikk den kontrollen at systemet føltes enkelt.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+  <script src="js/about.js"></script>
+</body>
+
+</html>
