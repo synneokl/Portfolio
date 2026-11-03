@@ -32,19 +32,18 @@
         <div class="about-content__block">
           <h3 class="about-content__heading">Design, teknologi og mennesker</h3>
           <div class="about-content__prose">
-            <p>Jeg har en bachelor i medie- og interaksjonsdesign fra UiB og tar nå en master i samme fagfelt ved siden av jobben i Omega 365. Der har jeg erfaring fra både systemutvikling og forretningsanalyse, og jobbet tett med kunder som har komplekse behov og arbeidsprosesser. Jeg har fått innsikt i hvordan man omsetter disse behovene til konkrete løsninger som gjør arbeidshverdagen enklere og mer effektiv.</p>
-            <p>Denne erfaringen har formet hvordan jeg tenker om design. Jeg er opptatt av å forstå hva brukerne faktisk trenger, se sammenhengen mellom mennesker, teknologi og arbeidsprosesser, og finne løsninger som fungerer i praksis.</p>
+            <p>Jeg har en bachelor i medie- og interaksjonsdesign fra UiB og tar nå en master ved siden av jobben i Omega 365, der jeg jobber med systemutvikling og forretningsanalyse for kunder med komplekse arbeidsprosesser. Det har lært meg å forstå hva brukerne faktisk trenger, og å se sammenhengen mellom mennesker, teknologi og arbeidsprosesser.</p>
           </div>
         </div>
 
         <div class="about-content__block">
           <h3 class="about-content__heading">Dette engasjerer meg</h3>
-          <p>Jeg motiveres særlig av å jobbe med digitale produkter og systemer som løser reelle problemer i arbeidshverdagen. Jeg synes det er spennende hvordan godt design kan gjøre avansert teknologi mer tilgjengelig, uten å forenkle bort det som faktisk er viktig. For tiden er jeg også nysgjerrig på hvordan KI kan åpne for nye måter å samhandle med digitale løsninger på.</p>
+          <p>Jeg motiveres av digitale produkter som løser reelle problemer i arbeidshverdagen, og av å gjøre avansert teknologi tilgjengelig uten å forenkle bort det som er viktig. For tiden er jeg særlig nysgjerrig på hvordan KI kan åpne for nye måter å samhandle med digitale løsninger på.</p>
         </div>
 
         <div class="about-content__block">
           <h3 class="about-content__heading">Utenfor jobb</h3>
-          <p>Mye av fritiden min går til løping. Jeg har deltatt i flere halvmaraton og 10 km-løp, og er nok typen som analyserer pulsdataene etter hver eneste økt. Ellers er jeg glad i å være sosial, tilbringe tid med venner og sier sjelden nei til en god fest.</p>
+          <p>Mye av fritiden går til løping. Jeg har løpt flere halvmaraton og 10 km-løp, og er nok typen som analyserer pulsdataene etter hver økt. Ellers er jeg glad i å være sosial og sier sjelden nei til en god fest.</p>
           <div class="about-content__photos">
             <img src="assets/images/about-lop.jpg" alt="Løper i blå singlet i et gateløp" />
             <img src="assets/images/about-bryggen-lop.jpg" alt="Jubler med medalje etter løp på Bryggen" />
