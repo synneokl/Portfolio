@@ -1348,6 +1348,36 @@ p {
   color: var(--color-black);
 }
 
+/* Pilknapp øverst til høyre ved hover */
+.about-trigger__arrow {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-white);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.about-trigger__arrow img {
+  width: 24px;
+  height: 24px;
+}
+
+.about-trigger__button:hover .about-trigger__arrow,
+.about-trigger__button:focus-visible .about-trigger__arrow {
+  opacity: 1;
+  transform: none;
+}
+
 /* Innholdet når kortet er åpent */
 .about-content {
   position: absolute;

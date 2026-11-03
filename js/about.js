@@ -10,6 +10,7 @@
   card.insertAdjacentHTML('beforeend', `
     <button class="about-trigger__button" type="button" aria-expanded="false" aria-controls="about-content">
       <span class="about-trigger__pill" aria-hidden="true">Om meg</span>
+      <span class="about-trigger__arrow" aria-hidden="true"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
       <span class="about-trigger__hover">
         <span class="about-trigger__title">Hei, jeg er Synne</span>
         <span class="about-trigger__text">Interaksjonsdesigner som liker å forstå hvordan ting henger sammen, og å gjøre komplekse ting enkle.</span>
