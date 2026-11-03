@@ -28,13 +28,7 @@
         <div class="about-content__prose">
           <p>Jeg vokste opp i Ølen, utenfor Haugesund, og bor nå i Bergen. Jeg er nysgjerrig av natur og liker å forstå hvordan ting henger sammen. Folk rundt meg vil nok beskrive meg som sosial, strukturert og ganske glad i å stille spørsmål.</p>
         </div>
-
-        <div class="about-content__block">
-          <h3 class="about-content__heading">Design, teknologi og mennesker</h3>
-          <div class="about-content__prose">
-            <p>Jeg har en bachelor i medie- og interaksjonsdesign fra UiB og tar nå en master ved siden av jobben i Omega 365, der jeg jobber med systemutvikling og forretningsanalyse for kunder med komplekse arbeidsprosesser. Det har lært meg å forstå hva brukerne faktisk trenger, og å se sammenhengen mellom mennesker, teknologi og arbeidsprosesser.</p>
-          </div>
-        </div>
+        <a class="about-content__link" href="assets/cv.pdf" target="_blank" rel="noopener">Utdanning og erfaring finner du i CV-en min</a>
 
         <div class="about-content__block">
           <h3 class="about-content__heading">Dette engasjerer meg</h3>
