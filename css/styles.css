@@ -1426,8 +1426,8 @@ p {
 
 .about-content p {
   margin: 0;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: var(--case-body-size);
+  line-height: var(--case-body-lh);
   letter-spacing: -0.015em;
 }
 
@@ -1450,7 +1450,7 @@ p {
 
 .about-content .about-content__label {
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: var(--case-label-size);
   line-height: 20px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.55);
@@ -1466,8 +1466,8 @@ p {
 .about-content__heading {
   margin: 0 0 12px;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: var(--case-h3-size);
+  line-height: 28px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
@@ -1476,7 +1476,7 @@ p {
   margin: 0;
   padding-left: 16px;
   border-left: 2px solid rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  font-size: var(--case-body-size);
   line-height: 28px;
   letter-spacing: -0.015em;
 }
