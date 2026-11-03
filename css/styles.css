@@ -1021,6 +1021,52 @@ p {
   }
 }
 
+/* Uthevede sitater fra brukere */
+.case__pullquotes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.case__pullquotes--single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 720px;
+}
+
+.case__pullquote {
+  margin: 0;
+  padding-left: 20px;
+  border-left: 2px solid var(--case-ink);
+}
+
+.case__pullquote blockquote {
+  margin: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: var(--case-ink);
+}
+
+.case__pullquote figcaption {
+  margin-top: 12px;
+  font-size: var(--case-label-size);
+  line-height: var(--case-label-lh);
+  color: var(--case-muted);
+}
+
+@media (max-width: 640px) {
+  .case__pullquotes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .case__pullquote blockquote {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 /* Single full-width frame */
 .case__media--wide {
   height: 480px;
