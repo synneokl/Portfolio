@@ -1349,6 +1349,25 @@ p {
   color: var(--case-muted);
 }
 
+/* Navigasjonslinjen festes helt i toppen: høyre kolonne går til kanten,
+   og avstanden ligger i navigasjonen i stedet for over den */
+@media (min-width: 1025px) {
+  .page-content {
+    margin-top: calc(-1 * var(--space-24));
+    margin-bottom: calc(-1 * var(--space-24));
+    height: auto;
+    align-self: stretch;
+  }
+
+  .page-content > .page-nav {
+    padding-top: var(--space-24);
+  }
+
+  .page-content--home {
+    padding-bottom: calc(96px + var(--space-24));
+  }
+}
+
 /* Kontaktlenkene i samme skrift som resten */
 .contact-link__text {
   font-family: var(--case-font);
