@@ -10,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=11" />
+  <link rel="stylesheet" href="css/styles.css?v=12" />
 </head>
 
 <body>
@@ -114,7 +114,7 @@
 
         <figure class="case__media case__media--phones case__media--phones-2">
           <img src="assets/images/mycrib-home.jpg" alt="MyCrib hjemskjerm med rom og chatter" />
-          <img src="assets/images/mycrib-scan-room.jpg" alt="Skanning av stua" />
+          <img src="assets/images/mycrib-allrooms.jpg" alt="Alle rom som stående kort med bilder" />
         </figure>
 
         <section class="case__section">
@@ -278,15 +278,6 @@
                 en skarpere, mer moteinspirert stil. Fordi skjermene var bygget med komponenter og variabler, fikk hele
                 prototypen den nye stilen på én gang.</p>
             </div>
-            <figure class="case__figure">
-              <div class="case__media case__media--phones">
-                <img src="assets/images/mycrib-allrooms.jpg" alt="Alle rom som stående kort med bilder" />
-                <img src="assets/images/mycrib-chat.jpg" alt="Stua i 360° med chat nederst" />
-                <img src="assets/images/mycrib-panel.png" alt="Sidepanelet med lagrede versjoner og chatter" />
-              </div>
-              <figcaption class="case__caption">Slik ser MyCrib ut nå: alle rom, rommet med chat, og sidepanelet med
-                lagrede versjoner.</figcaption>
-            </figure>
           </div>
 
           <div class="case__sub">
@@ -303,55 +294,51 @@
 
         <section class="case__section">
           <h2 class="case__heading">Løsningen så langt</h2>
+          <p class="case__text case__intro-text">Én ting går igjen i hele løsningen: AI-en gjør jobben raskt, men brukeren har alltid det siste ordet og kan rette målene, angre og velge selv.</p>
 
           <div class="case__sub">
             <h3 class="case__subheading">Rommet som kontekst</h3>
-            <p class="case__text">Brukeren legger inn rommet med skann, plantegning, egne mål eller bilder. Bildene gir
-              AI-en stemningen, farger, materialer og lys, mens skannet eller plantegningen gir den målene. Det finnes
-              fire måter å legge inn rommet på, så brukeren kan starte med det hun har for hånden.</p>
+            <p class="case__text">Brukeren legger inn rommet med skann, plantegning, egne mål eller bilder, og kan starte med det hun har for hånden. Bildene gir AI-en stemningen, farger, materialer og lys, mens skannet eller plantegningen gir den målene. Målene kan justeres etterpå, vegg for vegg.</p>
             <figure class="case__figure">
               <div class="case__media case__media--phones case__media--phones-4">
-                <img src="assets/images/mycrib-create-1.jpg"
-                  alt="Velg metode: skann, plantegning, egne mål eller bilder" />
-                <img src="assets/images/mycrib-create-2.png" alt="Egne mål: tegning av rommet med vegger og mål" />
-                <img src="assets/images/mycrib-create-3.png" alt="Legg til bilder med eksempelbilder" />
-                <img src="assets/images/mycrib-create-4.png"
-                  alt="Romdetaljer: navn, instruks til AI-en og interiørstil" />
+                <img src="assets/images/mycrib-create-1.jpg" alt="Velg metode: skann, plantegning, egne mål eller bilder" />
+                <img src="assets/images/mycrib-scan-room.jpg" alt="Skanning av stua, vegg 1 av 4 registrert" />
+                <img src="assets/images/mycrib-create-2.png" alt="Mål rommet: tegning med vegger og mål som kan justeres" />
+                <img src="assets/images/mycrib-create-4.png" alt="Romdetaljer: navn, instruks til AI-en og interiørstil" />
               </div>
-              <figcaption class="case__caption">«Create room» slik jeg designet den: velg metode, mål rommet, legg til
-                bilder og gi rommet et navn.</figcaption>
+              <figcaption class="case__caption">Velg metode, skann rommet, juster målene og gi rommet et navn. Flyten tegnet jeg selv i Figma etter at forslagene fra Claude ikke traff.</figcaption>
             </figure>
           </div>
 
           <div class="case__sub">
-            <h3 class="case__subheading">En chat som ikke tar over</h3>
-            <div class="case__prose">
-              <p class="case__text">Chatten tar maks en femtedel av skjermen, slik at rommet alltid er i fokus.
-                Endringer skjer direkte i rommet, men kan angres, og brukeren kan lagre versjoner og gå tilbake til dem.
-                Ingenting bytter visning av seg selv.</p>
-              <p class="case__note">Selve AI-samtalen er ikke ferdig ennå. I prototypen svarer AI-en med forhåndsskrevne
-                svar, så rammene rundt samtalen kan testes før vi kobler på en ekte språkmodell. Hvordan AI-en skal
-                svare, foreslå og si fra om mål er det vi jobber med nå.</p>
-            </div>
-          </div>
-
-          <div class="case__sub">
-            <h3 class="case__subheading">Vise hva AI-en så</h3>
-            <p class="case__text">Møbelet legges inn like enkelt som i ChatGPT, med et bilde, en produktlenke eller en
-              rask skanning. Når brukeren skanner, viser «What the AI saw» hvilke mål og hvilken gjenstand AI-en har
-              registrert, med «Not this item?» hvis den tok feil. Det svarer på behovet for å kunne stole på målene og
-              se hva rådene bygger på.</p>
+            <h3 class="case__subheading">Møbelet med riktige mål</h3>
+            <p class="case__text">Møbelet legges inn like enkelt som i ChatGPT, med et bilde, en produktlenke eller en rask skanning. Etter skanningen viser «What the AI saw» hvilket møbel AI-en tror det er og hvilke mål den har registrert. Stemmer det ikke, retter brukeren målene eller trykker «Not this item?».</p>
             <figure class="case__figure">
               <div class="case__media case__media--phones case__media--phones-2">
                 <img src="assets/images/mycrib-scan.jpg" alt="Skanning av et møbel med alle sider registrert" />
-                <img src="assets/images/mycrib-ai-saw.png"
-                  alt="«What the AI saw»: bilde av møbelet, navn, pris, lenke og mål registrert av skannet" />
+                <img src="assets/images/mycrib-ai-saw.png" alt="«What the AI saw»: bilde av møbelet, navn, pris, lenke og mål registrert av skannet" />
               </div>
-              <figcaption class="case__caption">Etter skanningen viser «What the AI saw» hvilket møbel AI-en tror det er
-                og målene den har registrert, med «Not this item?» hvis den tok feil.</figcaption>
+              <figcaption class="case__caption">Skanning av et bord, og målene AI-en registrerte. Brukeren kan alltid rette dem.</figcaption>
             </figure>
           </div>
 
+          <div class="case__sub">
+            <h3 class="case__subheading">Brukeren har kontrollen</h3>
+            <p class="case__text">AI-en kan endre rommet, men brukeren kan alltid angre, lagre versjoner og gå tilbake til en tidligere. Chatten tar maks en femtedel av skjermen, så rommet alltid er i fokus, og ingenting bytter visning av seg selv.</p>
+            <figure class="case__figure">
+              <div class="case__media case__media--phones case__media--phones-2">
+                <img src="assets/images/mycrib-chat.jpg" alt="Stua i 360° med chat nederst" />
+                <img src="assets/images/mycrib-panel.png" alt="Sidepanelet med lagrede versjoner og chatter" />
+              </div>
+              <figcaption class="case__caption">Rommet med chatten nederst, og sidepanelet med lagrede versjoner.</figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Tips når det passer</h3>
+            <p class="case__text">Ingen i intervjuene ville ha forslag hele tiden. De ville ha det mens de utforsker, ikke når de har bestemt seg. Retningen er derfor en AI som sier fra forsiktig, for eksempel at sofaen får plass, men at gangen blir for smal, uten å ta over.</p>
+            <p class="case__note">Dette er ikke ferdig. I prototypen svarer AI-en med forhåndsskrevne svar, så rammene rundt samtalen kan testes før vi kobler på en ekte språkmodell. Hvordan og når AI-en skal komme med tips, er det vi jobber med nå.</p>
+          </div>
         </section>
 
         <section class="case__section">

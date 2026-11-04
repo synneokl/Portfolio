@@ -860,6 +860,10 @@ p {
 }
 
 /* Merknad om noe som ikke er ferdig */
+.case__text + .case__note {
+  margin-top: 16px;
+}
+
 .case__note {
   padding: 16px 20px;
   border-radius: 12px;
