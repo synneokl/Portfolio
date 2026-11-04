@@ -1368,6 +1368,46 @@ p {
   }
 }
 
+/* Mobil: prosjektene først, så bilde og kontakt. Kontaktkortet får plass til alle lenkene. */
+@media (max-width: 1024px) {
+  .page-shell {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .page-content {
+    order: -1;
+    padding-left: 0;
+  }
+
+  .page-sidebar {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .page-sidebar .card-home--image {
+    min-height: 360px;
+    flex: 0 0 auto;
+  }
+
+  .page-sidebar .card-home--links {
+    min-height: 0;
+    flex: 0 0 auto;
+    padding: 24px;
+  }
+
+  .contact-link__text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .page-nav__role {
+    display: block;
+    margin-left: 0;
+    font-size: 16px;
+  }
+}
+
 /* Kontaktlenkene i samme skrift som resten */
 .contact-link__text {
   font-family: var(--case-font);
