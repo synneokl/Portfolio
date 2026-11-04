@@ -199,21 +199,35 @@
 
         <section class="case__section">
           <h2 class="case__heading">Løsningen</h2>
+          <p class="case__text case__intro-text">Hvert designvalg svarer på noe vi fant i innsiktsarbeidet. Rekkefølgen under følger journalistens vei fra tips til publisert sak.</p>
 
           <div class="case__sub">
-            <h3 class="case__subheading">Kildepanel som viser hvor dataene kommer fra</h3>
-            <p class="case__text">Skjermbildet var troverdig fordi leserne kjente igjen kilden, og den koblingen ville vi beholde når journalistene gikk over til et interaktivt kart. Vi laget derfor et kildepanel som viser datakilde og tidspunkt direkte i visualiseringen. Journalisten får et kart som viser hele hendelsesforløpet, og leseren kan fortsatt se hva det bygger på. Det støtter også det journalistiske kravet om at det som publiseres, skal kunne etterprøves.</p>
+            <h3 class="case__subheading">Datakildene ligger i verktøyet</h3>
+            <div class="case__prose">
+              <p class="case__text">Mange journalister ga opp når de skulle eksportere, rydde og komprimere datafiler, og tok et skjermbilde i stedet. Derfor fjernet vi de stegene helt.</p>
+              <p class="case__text">Journalisten slår på FlightRadar24, MarineTraffic, NAIS eller sensordata direkte i everviz, og ser fly og skip live på kartet. Med avspilling kan hun også hente fram posisjoner fra et tidligere tidspunkt.</p>
+            </div>
             <figure class="case__figure">
-              <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-source-panel.jpg" alt="Kart med flyet MF1201 over Vestlandet og et panel som viser flyinformasjon og lenke til kilden på FlightRadar24" /></div>
-              <figcaption class="case__caption">Når journalisten velger flyet, viser panelet hvor dataene kommer fra, med lenke til flyet på FlightRadar24.</figcaption>
+              <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-datasources.jpg" alt="Data-trinnet med FlightRadar24 og MarineTraffic slått på, og fly og skip over Norge på kartet" /></div>
+              <figcaption class="case__caption">FlightRadar24 og MarineTraffic er slått på, og fly og skip vises live på kartet.</figcaption>
             </figure>
           </div>
 
           <div class="case__sub">
-            <h3 class="case__subheading">Fire trinn fra data til publisering</h3>
+            <h3 class="case__subheading">Søk med det journalisten har</h3>
             <div class="case__prose">
-              <p class="case__text">For at visualisering skulle bli et alternativ til skjermbildet, måtte vi forenkle flyten og fjerne blant annet eksport, filkonvertering og veksling mellom verktøy. Arbeidsflyten ble samlet i fire trinn innenfor everviz-plattformen.</p>
-              <p class="case__text">I Data søker journalisten opp fly eller fartøy og velger datakilder. I Customize velger hun hvilken del av hendelsen som skal vises, og tilpasser kartet. I Animate velger hun hvordan bevegelsen skal visualiseres, og i Publish gjør hun visualiseringen klar for publisering.</p>
+              <p class="case__text">Journalister starter ofte bare med et tips, ikke et flightnummer. Søkefeltet tar derfor imot steder, flightnummer, callsign, registreringsnummer, skipsnavn og vanlig tekst, og viser fly, skip og steder i samme liste.</p>
+            </div>
+            <figure class="case__figure">
+              <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-search.jpg" alt="Søk på «Bergen» som viser flyplassen, fly og skip til og fra Bergen, og et åpent kildepanel for et fly" /></div>
+              <figcaption class="case__caption">Et søk på «Bergen» gir både flyplassen, fly og skip, og kilden vises når et objekt er valgt.</figcaption>
+            </figure>
+          </div>
+
+          <div class="case__sub">
+            <h3 class="case__subheading">Én oppgave om gangen</h3>
+            <div class="case__prose">
+              <p class="case__text">Brukertestene viste at mange valg på én gang gjorde det vanskeligere, og flere var usikre på kart. Arbeidsflyten ble derfor delt i fire trinn: Data, Customize, Animate og Publish. Erfarne brukere kan likevel hoppe fritt mellom trinnene.</p>
             </div>
             <figure class="case__figure">
               <div class="case__media-row"><div class="case__media case__media--sheet"><img src="assets/images/everviz-step1-data.jpg" alt="Trinn 1, Data" /></div><div class="case__media case__media--sheet"><img src="assets/images/everviz-step2-customize.jpg" alt="Trinn 2, Customize" /></div><div class="case__media case__media--sheet"><img src="assets/images/everviz-step3-animate.jpg" alt="Trinn 3, Animate" /></div><div class="case__media case__media--sheet"><img src="assets/images/everviz-step4-publish.jpg" alt="Trinn 4, Publish" /></div></div>
@@ -222,20 +236,24 @@
           </div>
 
           <div class="case__sub">
-            <h3 class="case__subheading">Søk med det journalisten har</h3>
-            <p class="case__text">Journalister har ikke alltid et flightnummer eller en eksakt identifikator. Noen ganger starter de bare med et tips eller en beskrivelse av hendelsen. Søkefeltet støtter derfor flere typer søk, blant annet flightnummer, callsign, registreringsnummer, tidsrom, geografisk område og søk med KI. Datakildene vises som lag som kan slås av og på, slik at journalisten selv velger hva som skal vises i kartet.</p>
+            <h3 class="case__subheading">Kilden følger med</h3>
+            <div class="case__prose">
+              <p class="case__text">Skjermbildet fra Flightradar24 var troverdig fordi leserne kjente igjen kilden. Den koblingen ville vi beholde, så kildepanelet viser datakilde og tidspunkt direkte i visualiseringen, med lenke til originalen. Det gjør at det som publiseres, kan etterprøves.</p>
+            </div>
             <figure class="case__figure">
-              <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-data-detail.jpg" alt="Datakilder og søk etter flynummer i Data-trinnet" /></div>
-              <figcaption class="case__caption">Datakildene slås av og på, og journalisten søker med det hun har, her flynummeret MF1201.</figcaption>
+              <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-source-panel.jpg" alt="Kart med flyet MF1201 og et panel med flyinformasjon og lenke til FlightRadar24" /></div>
+              <figcaption class="case__caption">Kildepanelet viser hvor dataene kommer fra, med lenke til flyet på FlightRadar24.</figcaption>
             </figure>
           </div>
 
           <div class="case__sub">
-            <h3 class="case__subheading">KI-agent som utgangspunkt</h3>
-            <p class="case__text">Som en alternativ inngang kan journalisten beskrive hva hun leter etter, for eksempel «finn flyet som fløy mellom Oslo og Bergen 17. februar». Agenten setter opp et forslag i den samme firetrinnsflyten, med kildepanel, som journalisten går gjennom og justerer før publisering. Etter erfaringen med den første prototypen var det viktig for oss at agenten bare skulle gi et utgangspunkt. Vurderingen av hva som er riktig og hva som skal publiseres, ligger fortsatt hos journalisten.</p>
+            <h3 class="case__subheading">KI-agent som snarvei, ikke erstatning</h3>
+            <div class="case__prose">
+              <p class="case__text">Erfarne brukere ville ha fart. Som en alternativ inngang kan journalisten beskrive saken med egne ord, for eksempel «finn flyet som fløy mellom Oslo og Bergen 17. februar». Agenten setter opp et forslag i den samme firetrinnsflyten, med kilde, som journalisten går gjennom før publisering. Vurderingen ligger fortsatt hos journalisten.</p>
+            </div>
             <figure class="case__figure">
               <div class="case__media case__media--sheet case__media--sheet-wide"><img src="assets/images/everviz-agent.jpg" alt="KI-agenten finner flyet ut fra en beskrivelse og foreslår animasjon" /></div>
-              <figcaption class="case__caption">KI-agenten finner flyet ut fra én setning og foreslår hvordan ruten kan animeres. Kilden står i resultatet.</figcaption>
+              <figcaption class="case__caption">KI-agenten finner flyet ut fra én setning og foreslår hvordan ruten kan animeres.</figcaption>
             </figure>
           </div>
         </section>
