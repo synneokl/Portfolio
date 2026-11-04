@@ -974,6 +974,60 @@ p {
   color: var(--case-muted);
 }
 
+/* Fra funn til designvalg: én rad per funn */
+.case__findings {
+  border-top: 1px solid var(--case-line);
+}
+
+.case__finding {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 40px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--case-line);
+}
+
+.case__finding p {
+  margin: 0;
+}
+
+.case__finding-stat {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: var(--case-ink);
+}
+
+.case__finding-title {
+  margin-top: 4px !important;
+  font-weight: 500;
+  font-size: var(--case-body-size);
+  line-height: var(--case-body-lh);
+  color: var(--case-ink);
+}
+
+.case__finding-quote {
+  margin-top: 8px !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--case-muted);
+}
+
+.case__finding-choice {
+  font-size: var(--case-body-size);
+  line-height: var(--case-body-lh);
+  letter-spacing: -0.015em;
+  color: var(--case-text);
+}
+
+@media (max-width: 1100px) {
+  .case__finding {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+}
+
 /* Fra innsikt til designvalg */
 .case__map-intro {
   margin: 0 0 24px;
