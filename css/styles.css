@@ -975,6 +975,10 @@ p {
 }
 
 /* Fra innsikt til designvalg */
+.case__map-intro {
+  margin: 0 0 24px;
+}
+
 .case__map {
   margin: 0;
   border-top: 1px solid var(--case-line);
